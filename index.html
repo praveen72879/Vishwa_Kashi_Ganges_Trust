@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vishwa Kashi Ganges Charitable Trust | Annadan Seva in Varanasi</title>
+
+<meta name="description" content="Vishwa Kashi Ganges Charitable Trust in Varanasi provides free food to pilgrims visiting Kashi and underprivileged people. Support Annadan Seva and help feed the needy in the holy city of Kashi.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#f4f6f9;
+color:#222;
+line-height:1.8;
+}
+
+header{
+background:white;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 4px 25px rgba(0,0,0,0.06);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-weight:700;
+font-size:20px;
+color:#8b0000;
+}
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#333;
+font-size:14px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#8b0000;
+}
+
+.hero{
+height:100vh;
+background:url('board.jpeg') center/cover no-repeat;
+position:relative;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.75));
+}
+
+.hero-content{
+position:relative;
+color:white;
+max-width:950px;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:52px;
+font-weight:700;
+text-shadow:0 4px 20px rgba(0,0,0,0.9);
+}
+
+.hero-content h3{
+color:#ffd54f;
+letter-spacing:2px;
+margin-top:10px;
+}
+
+.hero-content p{
+margin-top:20px;
+font-size:18px;
+color:#f5f5f5;
+}
+
+.hero-btn{
+display:inline-block;
+margin:15px;
+background:#c62828;
+padding:14px 32px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+.section{
+padding:90px 10%;
+background:white;
+}
+
+.section-alt{
+background:#eef1f5;
+}
+
+.section h2{
+text-align:center;
+font-size:34px;
+color:#8b0000;
+margin-bottom:50px;
+}
+
+.grid-2{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.grid-3{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:25px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+.stats{
+background:#8b0000;
+color:white;
+display:flex;
+justify-content:space-between;
+padding:70px 10%;
+text-align:center;
+}
+
+.stats div{
+width:25%;
+}
+
+.amount-buttons{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+justify-content:center;
+margin-bottom:30px;
+}
+
+.amount-buttons button{
+padding:12px 25px;
+border-radius:25px;
+border:2px solid #c62828;
+background:white;
+cursor:pointer;
+font-weight:600;
+}
+
+.amount-buttons button.active,
+.amount-buttons button:hover{
+background:#c62828;
+color:white;
+}
+
+.payment-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+max-width:1000px;
+margin:auto;
+}
+
+footer{
+background:#111;
+color:white;
+padding:70px 10%;
+}
+
+.copy{
+text-align:center;
+margin-top:40px;
+color:#aaa;
+font-size:13px;
+}
+
+@media(max-width:900px){
+.grid-2,.grid-3,.gallery,.payment-grid{
+grid-template-columns:1fr;
+}
+.stats{
+flex-direction:column;
+}
+.stats div{
+width:100%;
+margin-bottom:20px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Vishwa Kashi Ganges Charitable Trust</div>
+<nav>
+<a href="#about">About</a>
+<a href="#mission">Mission</a>
+<a href="#work">What We Do</a>
+<a href="#impact">Impact</a>
+<a href="#transparency">Transparency</a>
+<a href="#donate">Donate</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Vishwa Kashi Ganges Charitable Trust</h1>
+<h3>Seva • Dharma • Sanskar</h3>
+<p>Serving Free Meals to Pilgrims and the Needy in the Holy City of Kashi.</p>
+<p>Located in Varanasi, our trust is dedicated to providing free food to devotees visiting Kashi for Mahadev darshan and to underprivileged people struggling for daily meals.</p>
+<a href="#donate" class="hero-btn">Donate Now</a>
+<a href="#work" class="hero-btn">Support Annadan Seva</a>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About Us</h2>
+<div class="grid-2">
+<div>
+<p>Vishwa Kashi Ganges Charitable Trust is a charitable initiative based in Varanasi, Uttar Pradesh. The trust is established with the purpose of serving humanity through Annadan Seva (food donation).</p>
+
+<p>Every day, thousands of devotees travel to Kashi to seek blessings of Mahadev. Many pilgrims come from different states with limited financial support. At the same time, several local families in Varanasi struggle to afford basic meals.</p>
+
+<p>Our trust works to ensure that no devotee and no needy person sleeps hungry in the holy land of Kashi.</p>
+
+<p>We believe that serving food is one of the highest forms of service. Through community support and donations, we organize free meal distribution for pilgrims, poor families, daily wage workers, elderly individuals without support, and homeless people.</p>
+
+<p>Our work is rooted in the values of Seva (service), Dharma (righteousness), and Sanskar (cultural values).</p>
+</div>
+<div>
+<img src="kashi1.jpg">
+</div>
+</div>
+</section>
+
+<section class="stats">
+<div><h2>1000+</h2><p>Meals Served Daily</p></div>
+<div><h2>365</h2><p>Days of Seva</p></div>
+<div><h2>500+</h2><p>Families Supported</p></div>
+<div><h2>Kashi</h2><p>Primary Service Location</p></div>
+</section>
+
+<section class="section section-alt" id="mission">
+<h2>Mission & Vision</h2>
+<div class="grid-2">
+<div class="card">
+<h3>Our Mission</h3>
+<p>To provide free and dignified meals to pilgrims and underprivileged people in Varanasi through transparent and community-supported charitable efforts, ensuring food security for those in need.</p>
+</div>
+<div class="card">
+<h3>Our Vision</h3>
+<p>To build a sustainable Annadan system in Kashi where every visitor and every needy person has access to at least one free meal daily, creating a hunger-free spiritual environment.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="work">
+<h2>What We Do</h2>
+<div class="grid-3">
+<div class="card">
+<h3>Annadan Seva</h3>
+<p>Regular free meal distribution programs in Varanasi for devotees visiting Kashi Vishwanath, travelers who cannot afford meals, and poor and homeless individuals. Food is prepared hygienically and distributed with respect and dignity.</p>
+</div>
+<div class="card">
+<h3>Support for Devotees</h3>
+<p>Many pilgrims travel long distances for darshan. We support them with basic food assistance during their spiritual journey so that financial hardship does not prevent spiritual devotion.</p>
+</div>
+<div class="card">
+<h3>Community Participation</h3>
+<p>Individuals and families can sponsor meals on birthdays, anniversaries, religious occasions, and remembrance days. Contributions directly support food preparation and distribution.</p>
+</div>
+</div>
+</section>
+
+<section class="section section-alt">
+<h2>Glimpses of Our Seva</h2>
+<div class="gallery">
+<img src="kashi1.jpg">
+<img src="kashi2.jpg">
+<img src="kashi3.jpg">
+</div>
+</section>
+
+<section class="section" id="impact">
+<h2>Why Annadan in Kashi?</h2>
+<p>Kashi is one of the most sacred cities in India. Devotees visit throughout the year seeking spiritual blessings. Providing food in this holy land is considered an act of great virtue.</p>
+<p><strong>Annadan is not just charity. It is service to humanity and devotion to Mahadev.</strong></p>
+
+<h3 style="margin-top:40px;">Our Impact</h3>
+<p>Daily meal support for visiting pilgrims, food assistance for poor families in Varanasi, community-driven donation system, and transparent use of funds dedicated entirely to food service.</p>
+</section>
+
+<section class="section section-alt" id="transparency">
+<h2>Transparency & Fund Usage</h2>
+<p>All donations collected by Vishwa Kashi Ganges Charitable Trust are used strictly for charitable purposes including food materials, cooking expenses, distribution arrangements, and volunteer support.</p>
+<p>We maintain a community-driven and transparent support system to ensure that every contribution directly benefits those in need.</p>
+</section>
+
+<section class="section" id="donate">
+<h2>Support Annadan Seva</h2>
+
+<div class="amount-buttons">
+<button onclick="selectAmount(this)">₹500</button>
+<button onclick="selectAmount(this)">₹2,500</button>
+<button onclick="selectAmount(this)">₹5,000</button>
+<button onclick="selectAmount(this)">₹11,000</button>
+</div>
+
+<div class="payment-grid">
+<div class="card">
+<h3>Bank Details (Demo)</h3>
+<p>
+Account Name: Vishwa Kashi Ganges Charitable Trust<br>
+Bank: State Bank of India<br>
+Account No: 12345678901<br>
+IFSC: SBIN0000001<br>
+Branch: Varanasi
+</p>
+</div>
+
+<div class="card" style="text-align:center;">
+<h3>Scan & Donate</h3>
+<div style="width:200px;height:200px;background:#ddd;margin:20px auto;display:flex;align-items:center;justify-content:center;">QR CODE</div>
+<p>Phone: 8185834172<br>Alternate: 8004355586 / 9506302170</p>
+</div>
+</div>
+</section>
+
+<section class="section section-alt" id="contact">
+<h2>Contact Us</h2>
+<p style="text-align:center;">
+Vishwa Kashi Ganges Charitable Trust<br>
+D-28/174, Pandey Haveli<br>
+Varanasi, Uttar Pradesh – 221001<br>
+India<br><br>
+Phone: 8185834172<br>
+Alternate: 8004355586 / 9506302170
+</p>
+</section>
+
+<footer>
+<div class="copy">
+© 2026 Vishwa Kashi Ganges Charitable Trust. All Rights Reserved.
+</div>
+</footer>
+
+<script>
+function selectAmount(btn){
+let buttons=document.querySelectorAll('.amount-buttons button');
+buttons.forEach(b=>b.classList.remove('active'));
+btn.classList.add('active');
+}
+</script>
+
+</body>
+</html>
