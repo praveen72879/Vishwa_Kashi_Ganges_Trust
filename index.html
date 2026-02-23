@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishwa Kashi Ganges Charitable Trust</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f5f7fa;
+color:#222;
+line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+background:white;
+padding:15px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+box-shadow:0 2px 15px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-weight:700;
+font-size:18px;
+color:#8b0000;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+margin-top:10px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-size:14px;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+background:black;
+color:white;
+padding-bottom:40px;
+}
+
+.hero img{
+width:100%;
+height:auto;
+display:block;
+}
+
+.hero-content{
+padding:30px 20px;
+}
+
+.hero-content h1{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.hero-content h3{
+color:#ffd54f;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:15px;
+margin-bottom:20px;
+}
+
+.hero-btn{
+display:inline-block;
+background:#c62828;
+padding:10px 25px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+/* SECTIONS */
+
+.section{
+padding:60px 5%;
+}
+
+.section-alt{
+background:#eef1f5;
+}
+
+.section h2{
+text-align:center;
+font-size:22px;
+color:#8b0000;
+margin-bottom:30px;
+}
+
+/* FLEX LAYOUT */
+
+.flex{
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+.flex img{
+width:100%;
+border-radius:10px;
+}
+
+/* STATS */
+
+.stats{
+background:#8b0000;
+color:white;
+padding:40px 5%;
+display:flex;
+flex-direction:column;
+gap:20px;
+text-align:center;
+}
+
+/* CARDS */
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+margin-bottom:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* DONATION */
+
+.amount-buttons{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+margin-bottom:20px;
+}
+
+.amount-buttons button{
+padding:8px 16px;
+border-radius:20px;
+border:2px solid #c62828;
+background:white;
+font-weight:600;
+cursor:pointer;
+}
+
+.amount-buttons button.active,
+.amount-buttons button:hover{
+background:#c62828;
+color:white;
+}
+
+.payment{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+padding:40px 5%;
+text-align:center;
+font-size:13px;
+}
+
+/* DESKTOP VERSION */
+
+@media(min-width:768px){
+
+.hero-content h1{
+font-size:48px;
+}
+
+.section{
+padding:90px 10%;
+}
+
+.section h2{
+font-size:32px;
+}
+
+.flex{
+flex-direction:row;
+align-items:center;
+}
+
+.flex > div{
+flex:1;
+}
+
+.stats{
+flex-direction:row;
+justify-content:space-between;
+}
+
+.gallery{
+flex-direction:row;
+}
+
+.gallery img{
+flex:1;
+}
+
+.payment{
+flex-direction:row;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Vishwa Kashi Ganges Charitable Trust</div>
+<nav>
+<a href="#about">About</a>
+<a href="#mission">Mission</a>
+<a href="#work">Work</a>
+<a href="#impact">Impact</a>
+<a href="#donate">Donate</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<img src="board.jpeg" alt="Vishwa Kashi Ganges Trust Board">
+<div class="hero-content">
+<h1>Vishwa Kashi Ganges Charitable Trust</h1>
+<h3>Seva • Dharma • Sanskar</h3>
+<p>Serving Free Meals to Pilgrims and the Needy in the Holy City of Kashi.</p>
+<p>Dedicated to Annadan Seva and ensuring no devotee or underprivileged individual sleeps hungry in Varanasi.</p>
+<a href="#donate" class="hero-btn">Support Annadan Seva</a>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About The Trust</h2>
+<div class="flex">
+<div>
+<p>Vishwa Kashi Ganges Charitable Trust is a charitable initiative based in Varanasi, Uttar Pradesh. The trust is established with the purpose of serving humanity through Annadan Seva (food donation).</p>
+<p>Every day thousands of devotees travel to Kashi to seek blessings of Mahadev. Many pilgrims come from different states with limited financial support. At the same time, several local families in Varanasi struggle to afford basic meals.</p>
+<p>Our trust works to ensure that no devotee and no needy person sleeps hungry in the holy land of Kashi.</p>
+<p>Our work is rooted in the values of Seva, Dharma, and Sanskar.</p>
+</div>
+<div>
+<img src="kashi1.jpg">
+</div>
+</div>
+</section>
+
+<section class="stats">
+<div><h3>1000+</h3><p>Meals Served Daily</p></div>
+<div><h3>365</h3><p>Days of Seva</p></div>
+<div><h3>500+</h3><p>Families Supported</p></div>
+<div><h3>Kashi</h3><p>Primary Service Area</p></div>
+</section>
+
+<section class="section section-alt" id="work">
+<h2>What We Do</h2>
+<div class="card">
+<h3>Annadan Seva</h3>
+<p>Regular free meal distribution programs for devotees visiting Kashi Vishwanath, daily wage workers, elderly individuals, and underprivileged families.</p>
+</div>
+<div class="card">
+<h3>Community Participation</h3>
+<p>Individuals sponsor meals on birthdays, anniversaries, religious occasions, and remembrance days.</p>
+</div>
+</section>
+
+<section class="section" id="impact">
+<h2>Glimpses of Our Seva</h2>
+<div class="gallery">
+<img src="kashi1.jpg">
+<img src="kashi2.jpg">
+<img src="kashi3.jpg">
+</div>
+</section>
+
+<section class="section section-alt" id="donate">
+<h2>Support Annadan Seva</h2>
+
+<div class="amount-buttons">
+<button onclick="selectAmount(this)">₹500</button>
+<button onclick="selectAmount(this)">₹2,500</button>
+<button onclick="selectAmount(this)">₹5,000</button>
+<button onclick="selectAmount(this)">₹11,000</button>
+</div>
+
+<div class="payment">
+<div class="card">
+<h3>Bank Details</h3>
+<p>Account Name: Vishwa Kashi Ganges Trust<br>
+Bank: SBI<br>
+Account No: 12345678901<br>
+IFSC: SBIN0000001</p>
+</div>
+<div class="card" style="text-align:center;">
+<h3>Scan & Donate</h3>
+<div style="width:180px;height:180px;background:#ddd;margin:20px auto;display:flex;align-items:center;justify-content:center;">QR</div>
+<p>Phone: 8185834172</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="contact">
+<h2>Contact</h2>
+<p style="text-align:center;">
+D-28/174, Pandey Haveli, Varanasi – 221001<br>
+Phone: 8185834172 / 8004355586 / 9506302170
+</p>
+</section>
+
+<footer>
+© 2026 Vishwa Kashi Ganges Charitable Trust. All Rights Reserved.
+</footer>
+
+<script>
+function selectAmount(btn){
+let buttons=document.querySelectorAll('.amount-buttons button');
+buttons.forEach(b=>b.classList.remove('active'));
+btn.classList.add('active');
+}
+</script>
+
+</body>
+</html>
