@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishwa Kashi Ganges Charitable Trust</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#f5f7fa;
+color:#222;
+line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+background:white;
+padding:15px 20px;
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+box-shadow:0 2px 15px rgba(0,0,0,0.05);
+}
+
+.logo{
+font-weight:700;
+font-size:18px;
+color:#8b0000;
+margin-bottom:10px;
+}
+
+nav{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-size:14px;
+font-weight:500;
+}
+
+/* HERO */
+
+.hero{
+position:relative;
+text-align:center;
+color:white;
+padding:0;
+}
+
+/* USE IMAGE TAG FOR FULL VISIBILITY */
+.hero-image{
+width:100%;
+display:block;
+}
+
+.hero-overlay{
+position:absolute;
+inset:0;
+background:rgba(0,0,0,0.6);
+}
+
+.hero-content{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%, -50%);
+width:90%;
+max-width:900px;
+color:white;
+}
+
+.hero h1{
+font-size:32px;
+margin-bottom:15px;
+text-shadow:0 3px 15px rgba(0,0,0,0.8);
+}
+
+.hero h3{
+color:#ffd54f;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:15px;
+margin-bottom:20px;
+}
+
+.hero-btn{
+display:inline-block;
+background:#c62828;
+padding:10px 25px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+/* SECTIONS */
+
+.section{
+padding:60px 20px;
+}
+
+.section h2{
+text-align:center;
+font-size:22px;
+color:#8b0000;
+margin-bottom:30px;
+}
+
+.section-alt{
+background:#eef1f5;
+}
+
+/* FLEX LAYOUTS */
+
+.flex{
+display:flex;
+flex-direction:column;
+gap:25px;
+}
+
+.flex img{
+width:100%;
+height:auto;
+border-radius:10px;
+display:block;
+}
+
+/* STATS */
+
+.stats{
+background:#8b0000;
+color:white;
+padding:40px 20px;
+display:flex;
+flex-direction:column;
+gap:20px;
+text-align:center;
+}
+
+/* CARDS */
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+margin-bottom:20px;
+}
+
+/* GALLERY */
+
+.gallery{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:auto;
+border-radius:10px;
+display:block;
+}
+
+/* DONATION */
+
+.amount-buttons{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+margin-bottom:20px;
+}
+
+.amount-buttons button{
+padding:8px 16px;
+border-radius:20px;
+border:2px solid #c62828;
+background:white;
+font-weight:600;
+cursor:pointer;
+}
+
+.amount-buttons button.active,
+.amount-buttons button:hover{
+background:#c62828;
+color:white;
+}
+
+.payment{
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+padding:40px 20px;
+text-align:center;
+font-size:13px;
+}
+
+/* DESKTOP */
+
+@media(min-width:768px){
+
+header{
+flex-direction:row;
+justify-content:space-between;
+align-items:center;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.section{
+padding:90px 10%;
+}
+
+.section h2{
+font-size:32px;
+}
+
+.flex{
+flex-direction:row;
+align-items:center;
+}
+
+.flex > div{
+flex:1;
+}
+
+.stats{
+flex-direction:row;
+justify-content:space-between;
+}
+
+.gallery{
+flex-direction:row;
+}
+
+.gallery img{
+flex:1;
+}
+
+.payment{
+flex-direction:row;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Vishwa Kashi Ganges Charitable Trust</div>
+<nav>
+<a href="#about">About</a>
+<a href="#mission">Mission</a>
+<a href="#work">Work</a>
+<a href="#donate">Donate</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<img src="board.jpeg" class="hero-image" alt="Vishwa Kashi Ganges Trust Board">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<h1>Vishwa Kashi Ganges Charitable Trust</h1>
+<h3>Seva • Dharma • Sanskar</h3>
+<p>Serving Free Meals to Pilgrims and the Needy in the Holy City of Kashi.</p>
+<p>Dedicated to Annadan Seva and ensuring no devotee or underprivileged individual sleeps hungry in Varanasi.</p>
+<a href="#donate" class="hero-btn">Support Annadan Seva</a>
+</div>
+</section>
+
+<!-- KEEP ALL YOUR EXISTING CONTENT BELOW EXACTLY AS IT IS -->
+
+</body>
+</html>
