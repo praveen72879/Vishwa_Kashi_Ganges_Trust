@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishwa Kashi Ganges Charitable Trust</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background:#f4f6f9;
+color:#222;
+line-height:1.7;
+}
+
+/* NAVBAR */
+
+header{
+background:white;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 3px 20px rgba(0,0,0,0.06);
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-weight:700;
+font-size:20px;
+color:#8b0000;
+}
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#333;
+font-size:14px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#8b0000;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+position:relative;
+background:url('board.jpeg') center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+.hero::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:linear-gradient(to bottom, rgba(0,0,0,0.65), rgba(0,0,0,0.75));
+}
+
+.hero-content{
+position:relative;
+text-align:center;
+color:white;
+max-width:900px;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:52px;
+font-weight:700;
+color:#ffffff;
+text-shadow:0 3px 15px rgba(0,0,0,0.8);
+margin-bottom:15px;
+}
+
+.hero-content h3{
+font-weight:500;
+color:#ffd54f;
+margin-bottom:20px;
+letter-spacing:2px;
+}
+
+.hero-content p{
+font-size:18px;
+margin-bottom:35px;
+color:#f5f5f5;
+}
+
+.hero-btn{
+background:#c62828;
+color:white;
+padding:14px 32px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* SECTION */
+
+.section{
+padding:90px 10%;
+background:white;
+}
+
+.section-alt{
+background:#eef1f5;
+}
+
+.section h2{
+text-align:center;
+font-size:34px;
+color:#8b0000;
+margin-bottom:50px;
+}
+
+/* GRID */
+
+.grid-2{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* DONATION */
+
+.donation-container{
+max-width:1000px;
+margin:auto;
+}
+
+.amount-buttons{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+margin-bottom:30px;
+}
+
+.amount-buttons button{
+padding:12px 25px;
+border-radius:25px;
+border:2px solid #c62828;
+background:white;
+cursor:pointer;
+font-weight:600;
+transition:0.3s;
+}
+
+.amount-buttons button.active,
+.amount-buttons button:hover{
+background:#c62828;
+color:white;
+}
+
+.payment-box{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+margin-top:30px;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+padding:70px 10%;
+}
+
+.copy{
+text-align:center;
+margin-top:40px;
+color:#aaa;
+font-size:13px;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:900px){
+.grid-2,
+.payment-box{
+grid-template-columns:1fr;
+}
+
+.amount-buttons{
+justify-content:center;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Vishwa Kashi Ganges Charitable Trust</div>
+<nav>
+<a href="#about">About</a>
+<a href="#mission">Mission</a>
+<a href="#donate">Donate</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Vishwa Kashi Ganges Charitable Trust</h1>
+<h3>SEVA • DHARMA • SANSKAR</h3>
+<p>Serving Free Meals to Pilgrims and the Needy in the Sacred City of Kashi.</p>
+<a href="#donate" class="hero-btn">Support Annadan Seva</a>
+</div>
+</section>
+
+<section class="section" id="about">
+<h2>About The Trust</h2>
+<div class="grid-2">
+<div>
+<p>Vishwa Kashi Ganges Charitable Trust is dedicated to Annadan Seva — the sacred act of feeding the hungry in Varanasi. Every day thousands of devotees visit Kashi seeking blessings of Mahadev.</p>
+<p>Our mission is to ensure no devotee and no needy person sleeps hungry in the holy land of Kashi.</p>
+</div>
+<div>
+<img src="kashi1.jpg" style="width:100%; border-radius:10px;">
+</div>
+</div>
+</section>
+
+<section class="section section-alt" id="mission">
+<h2>Mission & Vision</h2>
+<div class="grid-2">
+<div class="card">
+<h3>Our Mission</h3>
+<p>To provide free and dignified meals to pilgrims and underprivileged individuals through transparent community support.</p>
+</div>
+<div class="card">
+<h3>Our Vision</h3>
+<p>To establish a sustainable Annadan system where every needy person receives at least one free meal daily.</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="donate">
+<h2>Support Annadan Seva</h2>
+
+<div class="donation-container">
+
+<div class="amount-buttons">
+<button onclick="selectAmount(this)">₹500</button>
+<button onclick="selectAmount(this)">₹2,500</button>
+<button onclick="selectAmount(this)">₹5,000</button>
+<button onclick="selectAmount(this)">₹11,000</button>
+</div>
+
+<div class="payment-box">
+
+<div class="card">
+<h3>Bank Details (Demo)</h3>
+<p>
+Account Name: Vishwa Kashi Ganges Charitable Trust<br>
+Bank: State Bank of India<br>
+Account No: 12345678901<br>
+IFSC: SBIN0000001<br>
+Branch: Varanasi
+</p>
+
+<h3 style="margin-top:20px;">UPI ID</h3>
+<p>vishwakashiganges@upi</p>
+</div>
+
+<div class="card" style="text-align:center;">
+<h3>Scan & Donate (Demo QR)</h3>
+<div style="width:200px;height:200px;background:#ddd;margin:20px auto;display:flex;align-items:center;justify-content:center;">
+QR CODE
+</div>
+<p>Contact: 8185834172</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="section section-alt" id="contact">
+<h2>Contact Us</h2>
+<p style="text-align:center;">
+D-28/174, Pandey Haveli, Varanasi – 221001<br>
+Phone: 8185834172 / 8004355586 / 9506302170
+</p>
+</section>
+
+<footer>
+<div class="copy">
+© 2026 Vishwa Kashi Ganges Charitable Trust. All Rights Reserved.
+</div>
+</footer>
+
+<script>
+function selectAmount(btn){
+let buttons=document.querySelectorAll('.amount-buttons button');
+buttons.forEach(b=>b.classList.remove('active'));
+btn.classList.add('active');
+}
+</script>
+
+</body>
+</html>
